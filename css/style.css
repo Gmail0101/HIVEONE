@@ -1,0 +1,15 @@
+@media (min-width: 768px){
+
+    .logo{
+        position: relative;
+        left: 10vh;
+    }
+    .navbar-nav>li{
+        float:none;
+        display: inline-block;
+    }
+    .navbar-nav{
+        float:none;
+        display: inline-block;
+    }
+}
