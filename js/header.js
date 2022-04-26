@@ -20,7 +20,7 @@ $("#header").html(`
               <ul class="submenu">
                 <li><a href="/business.html">주요제품</a></li>
                 <li><a href="/technology.html">기술개발</a></li>
-                <li><a href="#">외주생산</a></li>
+                <li><a href="/plant.html">주요설비</a></li>
                 <li><a href="#">기술보유현황</a></li>
               </ul>
             </li>

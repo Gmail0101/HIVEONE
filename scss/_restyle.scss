@@ -54,6 +54,44 @@ $mainColor:#394459;
 
 
 
+  /* 
+    border 값
+    border 상 우 하 좌, 로 클래스명을 만들었다.
+*/
+.border-solid{
+  border: 1px solid #707070;
+}
+
+.border-top-bottom{
+  border-top: 1px solid #707070;
+  border-bottom:1px solid #707070; 
+}
+
+.border-right-bottom{
+  border-right: 1px solid #707070;
+  border-bottom:1px solid #707070; 
+}
+
+.border-bottom{
+  border-bottom:1px solid #707070; 
+}
+
+.border-top-right-bottom{
+  border-top: 1px solid #707070;
+  border-bottom:1px solid #707070; 
+  border-right:1px solid #707070;
+}
+.border-right-bottom-left{
+  border-bottom:1px solid #707070; 
+  border-right:1px solid #707070;
+  border-left: 1px solid #707070;
+}
+
+.border-left{
+  border-left: 1px solid #707070;
+}
+
+
 
   /* 폰트 설정*/
   @mixin text_style($size,$color,$weight){
