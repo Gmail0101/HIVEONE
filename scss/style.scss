@@ -1,40 +1,6 @@
 @import "restyle";
-/* header */
-
-/* 영역확인 */
-header{
-    background: pink;
-    position:fixed;
-    width:100%;
-    z-index: 1;
-}
-
-.head{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-}
-.logo{
-    margin-left: 80px;
-}
-.menu{
-    display: flex;
-}
-.gnb{
-    margin-right: 80px;
-}
-.menu>li{
-    width:128px;
-    height: 100px;
-    line-height: 100px;
-    text-align: center;
-}
-.menu>li>a{
-    font-size: 16px;
-    font-weight: bold;
-    color:$mainColor;
-}
-
+@import "gnb";
+@import "footer";
 
 /* visual IMG */
 .visual{
@@ -48,17 +14,31 @@ header{
     top:35%;
     left: 24%;
 }
-.visual_box>p{
-    @include text_style(48px,#fff,bold);
+.visual_box{
+   p{ 
+       @include text_style(48px,#fff,bold);
+    }
 }
-.visual_box>p>span{
-    @include text_style(56px,$mainColor,bold);
+.visual_box{
+    p{
+        span{
+            @include text_style(56px,$mainColor,bold);
+        }
+    }
 }
-.visual_box>p:nth-child(1){
-    margin-left: 50px;
+.visual_box{
+    p{
+        &:nth-child(1){
+            margin-left: 50px;
+        }
+    }
 }
-.visual_box>p:nth-child(2){
-    margin-left: 25px;
+.visual_box{
+    p{
+        &:nth-child(2){
+            margin-left: 25px;
+        }
+    }
 }
 
 /* 휠이미지 */
@@ -66,6 +46,11 @@ header{
     position: absolute;
     bottom:-50%;
     left: 32%;
+    animation: motion 0.3s linear infinite alternate;
+}
+@keyframes motion {
+	0% {bottom:-50%;}
+	100% {bottom:-55%;}
 }
 
 
@@ -76,9 +61,11 @@ header{
     position: relative;
     overflow: hidden;
 }
-.sec02_bg>img{
-    position: relative;
-    left:-10%;
+.sec02_bg{
+    img{
+        position: relative;
+        left:-10%;
+    }
 }
 .sec02_card{
     position:absolute;
@@ -96,16 +83,22 @@ header{
     top:25%;
 }
 
-.sec02_card>h4{
-    @include text_style(48px,$mainColor,bold);
+.sec02_card{
+    h4{
+        @include text_style(48px,$mainColor,bold);
+    }
 }
 
-.sec02_card>p{
-    @include text-style(24px,$mainColor,normal);
+.sec02_card{
+    p{
+        @include text-style(24px,$mainColor,normal);
+    }
 }
 
-.slide-area>li{
-    position: relative;
+.slide-area{
+    li{
+        position: relative;
+    }
 }
 .slider-hover{
     width:96%;
@@ -115,14 +108,20 @@ header{
     top:100%;
     transition:all 0.5s;
 }
-.slider-hover>h4{
-    @include text-style(32px,#fff,bold);
-    position: relative;
-    left: 32px;
-    top:85%;
+.slider-hover{
+    h4{
+        @include text-style(32px,#fff,bold);
+        position: relative;
+        left: 32px;
+        top:85%;
+    }
 }
-.slide-area>li:hover > .slider-hover{
-    top:0;
+.slide-area{
+    li{
+        &:hover > .slider-hover{
+            top:0;
+        }
+    }
 }
 
 
@@ -142,6 +141,7 @@ header{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+.sec03_title>h1{font-weight: bold;}
 
 .sec03_box{
     display: flex;
@@ -154,14 +154,30 @@ header{
 .secbox{
     width:364px;
     height: 320px;
-    border: 1px solid;
+    // border: 1px solid;
     margin:12px ;
+    box-shadow : 0 0 10px gray;
+    background: #fff;
+    border-radius: 15px;
 }
-.secbox>p{
-    position: relative;
-    top:40%;
+.secbox{
+    p{
+        position: relative;
+        top:40%;
+        @include text-style(40px,$mainColor,bold)
+    }
 }
-.secbox>em{
-    position: relative;
-    top:55%;
+.secbox{
+    a{
+        position: relative;
+        top:55%;
+        left: -10%;
+        // border: 1px solid #999999;
+        border-radius:22px ;
+        padding: 10px;
+        font-size: 17px;
+        background-color: $mainColor;
+        color:#fff;
+        font-weight: 900;
+    }
 }

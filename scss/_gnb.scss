@@ -1,0 +1,44 @@
+/* 영역확인 */
+header{
+    // background: pink;
+    position:fixed;
+    width:100%;
+    z-index: 3;
+    height: 100px;
+    background-color: #fff;
+    transition: all 0.3s;
+}
+
+.head{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 80px;
+}
+.menu{
+    display: flex;
+    li{
+        width:128px;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        a{
+            font-size: 16px;
+            font-weight: bold;
+            color:$mainColor;
+        }
+    }
+}
+.gnb{
+    margin-right: 80px;
+}
+
+.submenu{
+    li{
+        display: none;
+        height: 40px;
+        line-height: 40px;
+    }
+}

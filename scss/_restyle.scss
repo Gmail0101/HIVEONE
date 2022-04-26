@@ -1,7 +1,10 @@
 $mainColor:#394459;
-
-
-
+/* 초기화 */
+.clearfix{
+    display: block;
+    content: "";
+    clear: both;
+}
 * {
     margin: 0 auto;
     padding: 0;
@@ -24,6 +27,31 @@ $mainColor:#394459;
 
   /* 이미지 100%*/
   .MaxIMG{width:100%;}
+
+
+
+  /* 마진 */
+  .mt-10{margin-top: 10px;}
+  .mt-20{margin-top: 20px;}
+  .mt-30{margin-top: 30px;}
+  .mt-40{margin-top: 40px;}
+  .mt-50{margin-top: 50px;}
+  .mt-60{margin-top: 60px;}
+  .mt-70{margin-top: 70px;}
+  .mt-80{margin-top: 80px;}
+  .mt-90{margin-top: 90px;}
+  .mt-100{margin-top: 100px;}
+  .mt-110{margin-top: 110px;}
+  .mt-120{margin-top: 120px;}
+  .mt-130{margin-top: 130px;}
+  .mt-140{margin-top: 140px;}
+  .mt-150{margin-top: 150px;}
+  .mt-160{margin-top: 160px;}
+  .mt-170{margin-top: 170px;}
+  .mt-180{margin-top: 180px;}
+  .mt-190{margin-top: 190px;}
+  .mt-200{margin-top: 200px;}
+
 
 
 

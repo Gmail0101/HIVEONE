@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=yes" />
+  <title>Hive One</title>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <!-- 부트스트랩 3.3.2 CSS -->
+  <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <!-- slick slider -->
+  <link href="/css/jdslider.css" rel="stylesheet" type="text/css"/>
+  <!-- Style -->
+  <link href="/css/email.min.css" rel="stylesheet" type="text/css"/>
+  
+</head>
+<body>
+
+    <div class="container-fluid">
+        <header id="header">
+        <!-- header JS -->
+        <script src="/js/header.js"></script>
+        </header>
+    </div>
+
+    <div class="visual mt-100">
+        <img class="MaxIMG" src="/images/email/email_visual.png" alt="비주얼이미지">
+        <div class="container visual_box">
+            <h1>CONTACT US</h1>
+            <p>
+                <img src="/images/email/home_black.png" alt="집아이콘">
+                > CONTACT US > 문의하기
+            </p>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="container">
+        <div class="page_nav pull-right">
+            <ul>
+                <li><a href="/email.html">문의하기</a></li>
+                <li><a href="/map.html">오시는길</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+
+    <div class="contWarp">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 media_title">
+                    <h1>문의하기</h1>
+                </div>
+
+
+                <form action="./emailAction.jsp" method="post">
+                    <div class="col-lg-12 mail">
+                        <img class="mail_icon mail__icon" src="/images/email/icon_01.png" alt="icon01">
+                        <label for="userid">
+                            기업명 또는 단체명
+                            <input type="text" name="userid" placeholder="기업명 / 단체명을 입력해주세요">
+                        </label>
+                    </div>
+                    
+                    <div class="col-lg-12 mail">
+                        <img class="mail_icon mail___icon" src="/images/email/icon_02.png" alt="icon02">
+                        <label for="username">
+                            성함
+                            <input type="text" name="username" placeholder="문의자 성함을 입력해주세요">
+                        </label>
+                    </div>
+                    
+                    <div class="col-lg-12 mail">
+                        <img class="mail_icon" src="/images/email/icon_03.png" alt="icon03">
+                        <label for="usermail">
+                            이메일
+                            <input type="text" name="usermail" placeholder="이메일 주소를 입력해주세요.">
+                        </label>
+                    </div>
+                    
+                    <div class="col-lg-12 mail">
+                        <img class="mail_icon" src="/images/email/icon_04.png" alt="icon04">
+                        <label for="userphone">
+                            연락처
+                            <input type="text" name="userphone" placeholder="전화번호를 입력해주세요." maxlength="13">
+                        </label>
+                    </div>
+
+                    <div class="col-lg-12 mail_box">
+                        <span>문의내용</span>
+                        <textarea name="usercontent" id="" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="col-lg-12 text-center mail_check">
+                        <input type="checkbox" id="checkbox" name="chk">
+                        <label for="checkbox">개인정보 활용에 동의합니다.</label>
+                    </div>
+                    
+                    <div class="col-lg-12 text-center mail_submit">
+                        <input type="submit" name="submit" value="메일보내기">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+  <div class="footer">
+    <!-- footer -->
+    <script src="/js/footer.js"></script>
+  </div>
+
+  <!-- 부트스트랩 JS -->
+  <script src="/js/bootstrap.min.js"></script>
+  <!-- JDSlier JS-->
+  <script src="/js/jquery.jdSlider-latest.min.js"></script>
+  <script src="/js/jdslider.js"></script>
+  <!-- main JS-->
+  <script src="/js/main.js"></script>
+  <!-- 유효성 체크 -->
+  <script>
+    $('input[name=submit]').click(function(){
+        if($("input:checkbox[name=chk]").is(":checked") == false){
+        alert("개인정보 활용 체크해주세요.");
+            return false;
+        }
+    })
+</script>
+</body>
+</html>
