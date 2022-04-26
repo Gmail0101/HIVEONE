@@ -4,7 +4,7 @@ $("#header").html(`
     <div class="head">
 
         <div class="logo">
-          <img src="/images/header/logo.png" alt="로고">
+          <img onclick="location.href='/index.html';" style="cursor:pointer" src="/images/header/logo.png" alt="로고">
         </div>
 
         <div class="gnb">
@@ -16,15 +16,15 @@ $("#header").html(`
                 <li><a href="/tree.html">조직도</a></li>
               </ul>
             </li>
-            <li><a href="#">BUSINESS</a>
+            <li><a href="/business.html">BUSINESS</a>
               <ul class="submenu">
-                <li><a href="#">사업영역</a></li>
-                <li><a href="#">기술개발</a></li>
+                <li><a href="/business.html">주요제품</a></li>
+                <li><a href="/technology.html">기술개발</a></li>
                 <li><a href="#">외주생산</a></li>
                 <li><a href="#">기술보유현황</a></li>
               </ul>
             </li>
-            <li><a href="#">CONTACT US</a>
+            <li><a href="/email.html">CONTACT US</a>
               <ul class="submenu">
                 <li><a href="/email.html">문의하기</a></li>
                 <li><a href="/map.html">오시는길</a></li>
