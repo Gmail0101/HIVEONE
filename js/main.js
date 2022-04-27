@@ -58,7 +58,6 @@ $(function(){
         wrap: '.slide-inner',
         slideShow: 2,
         slideToScroll: 1,
-        isLoop: false,
         responsive: [{
             viewSize: 1024,
             settings: {
