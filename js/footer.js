@@ -2,7 +2,7 @@ $('.footer').html(`
     <div class="container">
       <div class="row">
         <div class="col-lg-5 mt-50">
-          <img src="/images/footer/footer_logo.png" alt="푸터로고">
+          <img src="../images/footer/footer_logo.png" alt="푸터로고">
         </div>
         <div class="col-lg-7">
           <ul class="footer-info mt-50">
