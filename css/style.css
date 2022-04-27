@@ -1,4 +1,16 @@
 @charset "UTF-8";
+@import url("https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css");
+/* 민산스 Black 폰트 */
+@font-face {
+  font-family: "MinSans-Black";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Black.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+h1, h2, h3, h4, h5, h6, p, em, strong, a, li, span {
+  font-family: "NanumSquare";
+}
+
 /* 초기화 */
 .clearfix {
   display: block;
@@ -192,7 +204,7 @@ header {
 }
 .menu li a {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 800;
   color: #394459;
 }
 
@@ -220,7 +232,7 @@ header {
 
 .footer-info li {
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .footer-info li:nth-child(1) {
@@ -256,13 +268,13 @@ header {
 .visual_box p {
   font-size: 48px;
   color: #fff;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .visual_box p span {
   font-size: 56px;
   color: #394459;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .visual_box p:nth-child(1) {
@@ -332,13 +344,13 @@ header {
 .sec02_card h4 {
   font-size: 48px;
   color: #394459;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .sec02_card p {
   font-size: 24px;
   color: #394459;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .slide-area li {
@@ -357,7 +369,7 @@ header {
 .slider-hover h4 {
   font-size: 32px;
   color: #fff;
-  font-weight: bold;
+  font-weight: 800;
   position: relative;
   left: 32px;
   top: 85%;
@@ -383,7 +395,7 @@ header {
 }
 
 .sec03_title > h1 {
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .sec03_box {
@@ -408,7 +420,7 @@ header {
   top: 40%;
   font-size: 40px;
   color: #394459;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .secbox a {

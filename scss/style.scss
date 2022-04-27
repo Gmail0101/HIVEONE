@@ -16,13 +16,13 @@
 }
 .visual_box{
    p{ 
-       @include text_style(48px,#fff,bold);
+       @include text_style(48px,#fff,700);
     }
 }
 .visual_box{
     p{
         span{
-            @include text_style(56px,$mainColor,bold);
+            @include text_style(56px,$mainColor,800);
         }
     }
 }
@@ -85,13 +85,13 @@
 
 .sec02_card{
     h4{
-        @include text_style(48px,$mainColor,bold);
+        @include text_style(48px,$mainColor,800);
     }
 }
 
 .sec02_card{
     p{
-        @include text-style(24px,$mainColor,normal);
+        @include text-style(24px,$mainColor,400);
     }
 }
 
@@ -110,7 +110,7 @@
 }
 .slider-hover{
     h4{
-        @include text-style(32px,#fff,bold);
+        @include text-style(32px,#fff,800);
         position: relative;
         left: 32px;
         top:85%;
@@ -141,7 +141,7 @@
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.sec03_title>h1{font-weight: bold;}
+.sec03_title>h1{font-weight: 800;}
 
 .sec03_box{
     display: flex;
@@ -164,7 +164,7 @@
     p{
         position: relative;
         top:40%;
-        @include text-style(40px,$mainColor,bold)
+        @include text-style(40px,$mainColor,800)
     }
 }
 .secbox{

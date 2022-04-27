@@ -7,13 +7,13 @@
 /* visual */
 .visual_box{
     position: relative;
-    bottom:200px;
+    bottom:270px;
     h1{
-        @include text-style(56px,$mainColor,bold)
+        @include text-style(56px,$whiteColor,800)
     }
     p{
         margin-top: 34px;
-        @include text-style(16px,$mainColor,bold)
+        @include text-style(16px,$whiteColor,800)
     }
 }
 

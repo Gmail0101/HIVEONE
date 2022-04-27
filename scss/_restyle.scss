@@ -1,4 +1,21 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
 $mainColor:#394459;
+$whiteColor:#fff;
+
+/* 민산스 Black 폰트 */
+@font-face {
+  font-family: 'MinSans-Black';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Black.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1,h2,h3,h4,h5,h6,p,em,strong,a,li,span{
+  font-family: 'NanumSquare';
+}
+
+
 /* 초기화 */
 .clearfix{
     display: block;

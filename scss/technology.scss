@@ -7,13 +7,13 @@
 /* visual */
 .visual_box{
     position: relative;
-    bottom:200px;
+    bottom:270px;
     h1{
-        @include text-style(56px,$mainColor,bold)
+        @include text-style(56px,$whiteColor,800)
     }
     p{
         margin-top: 34px;
-        @include text-style(16px,$mainColor,bold)
+        @include text-style(16px,$whiteColor,800)
     }
 }
 
@@ -39,7 +39,7 @@
             }
             a{
                 display: block;
-                @include text-style(24px,$mainColor,bold);
+                @include text-style(24px,$mainColor,800);
                 padding: 22px;
             }
         }
@@ -57,9 +57,9 @@
 
 .sec_title{
     h2{
-        @include text-style(40px,$mainColor,bold);
+        @include text-style(40px,$mainColor,800);
         text-align: center;
-        margin-bottom: 80px;
+        margin-bottom: 24px;
     }
 }
 
@@ -126,20 +126,20 @@
         position:absolute;
         top:-130px;
         left: 70px;
-        @include text-style(60px,rgba(233,233,233,0.6),bold);
+        @include text-style(60px,rgba(233,233,233,0.6),800);
     }
     span{
         position:absolute;
         top:-90px;
-        @include text-style(48px,#1858D9,bold);
+        @include text-style(48px,#1858D9,800);
     }
 }
 
 .tab_cont_text{
     p{
-        @include text-style(32px,#0B2244,bold);
+        @include text-style(32px,#0B2244,800);
     }
     em{
-        @include text-style(32px,#0B2244,bold);
+        @include text-style(32px,#0B2244,800);
     }
 }

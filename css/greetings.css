@@ -1,4 +1,16 @@
 @charset "UTF-8";
+@import url("https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css");
+/* 민산스 Black 폰트 */
+@font-face {
+  font-family: "MinSans-Black";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Black.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+h1, h2, h3, h4, h5, h6, p, em, strong, a, li, span {
+  font-family: "NanumSquare";
+}
+
 /* 초기화 */
 .clearfix {
   display: block;
@@ -192,7 +204,7 @@ header {
 }
 .menu li a {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 800;
   color: #394459;
 }
 
@@ -220,7 +232,7 @@ header {
 
 .footer-info li {
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .footer-info li:nth-child(1) {
@@ -239,18 +251,18 @@ header {
 /* visual */
 .visual_box {
   position: relative;
-  bottom: 200px;
+  bottom: 270px;
 }
 .visual_box h1 {
   font-size: 56px;
-  color: #394459;
-  font-weight: bold;
+  color: #fff;
+  font-weight: 800;
 }
 .visual_box p {
   margin-top: 34px;
   font-size: 16px;
-  color: #394459;
-  font-weight: bold;
+  color: #fff;
+  font-weight: 800;
 }
 
 .page_nav {
