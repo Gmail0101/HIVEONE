@@ -123,6 +123,24 @@
   <!-- 유효성 체크 -->
   <script>
     $('input[name=submit]').click(function(){
+    	if($("#userid").val() == ""){
+    		alert("기업명 또는 단체명을 입력해주세요.");
+    		return false;
+    	} else if($("#username").val() == ""){
+    		alert("성함을 입력해주세요.");
+    		return false;
+    	} else if($("#usermail").val() == ""){
+    		alert("이메일을 입력해주세요.");
+    		return false;
+    	} else if($("#userphone").val() == ""){
+    		alert("연락처를 입력해주세요.");
+    		return false;
+    	} else if($("#usercontent").val() == ""){
+    		alert("문의내용을 입력해주세요");
+    		return false;
+    	}
+    	
+    	
         if($("input:checkbox[name=chk]").is(":checked") == false){
         alert("개인정보 활용 체크해주세요.");
             return false;
