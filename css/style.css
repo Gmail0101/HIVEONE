@@ -843,7 +843,9 @@ header {
     font-size: 24px;
     top: 20%;
   }
-  .sec03_box .secbox a {
+
+  .secbox a {
+    top: 30%;
     left: 0;
     font-size: 14px;
     padding: 7px 10px;
