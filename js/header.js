@@ -31,5 +31,44 @@ $("#header").html(`
               </ul>
             </li>
           </ul>
+
         </div>
+
+
+        <div class="sidebar">
+          <span></span>
+          <span></span>
+          <span></span>
+         </div>
+
+         <div class="sidebar-wrap">
+            <div class="sidebar-close">
+              <span>&times;</span>
+            </div>
+            <div class="clearfix"></div>
+            <ul class="sidebar-menu">
+              <li class="have-children"><a href="#"><span class="fa"></span>COMPANY</a>
+                <ul>
+                  <li><a href="#">회사개요</a></li>
+                  <li><a href="#">인사말</a></li>
+                  <li><a href="#">조직도</a></li>
+                </ul>
+              </li>
+              <li class="have-children"><a href="#"><span class="fa"></span>BUSINESS</a>
+                <ul>
+                  <li><a href="#">주요제품</a></li>
+                  <li><a href="#">기술개발</a></li>
+                  <li><a href="#">주요설비</a></li>
+                  <li><a href="#">기술보유현황</a></li>
+                </ul>
+              </li>
+              <li class="have-children"><a href="#"><span class="fa"></span>CONTACT US</a>
+                <ul>
+                  <li><a href="#">문의하기</a></li>
+                  <li><a href="#">오시는길</a></li>
+                </ul>
+              </li>
+             </ul>
+
+         </div>
 `)

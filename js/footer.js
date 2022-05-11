@@ -1,10 +1,10 @@
 $('.footer').html(`
     <div class="container">
       <div class="row">
-        <div class="col-lg-5 mt-50">
+        <div class="col-lg-5 col-md-3 col-sm-4 mt-50 footer_logo">
           <img src="./images/footer/footer_logo.png" alt="푸터로고">
         </div>
-        <div class="col-lg-7">
+        <div class="col-lg-7 col-md-9 col-sm-8">
           <ul class="footer-info mt-50">
             <li>개인정보처리방침</li>
             <li>이메일무단수집거부</li>

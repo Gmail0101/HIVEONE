@@ -3,6 +3,13 @@
 $mainColor:#394459;
 $whiteColor:#fff;
 
+// Breakpoints
+$layout-mobile: 767px;
+$layout-tablet: 768px;
+$layout-tablet-lg: 991px;
+$layout-desktop: 992px;
+$layout-desktop-lg: 1199px;
+
 /* 민산스 Black 폰트 */
 @font-face {
   font-family: 'MinSans-Black';
