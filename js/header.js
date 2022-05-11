@@ -35,13 +35,13 @@ $("#header").html(`
         </div>
 
 
-        <div class="sidebar">
+        <div class="sidebar visible-sm visible-xs">
           <span></span>
           <span></span>
           <span></span>
          </div>
 
-         <div class="sidebar-wrap">
+         <div class="sidebar-wrap visible-sm visible-xs">
             <div class="sidebar-close">
               <span>&times;</span>
             </div>
