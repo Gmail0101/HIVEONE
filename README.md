@@ -9,3 +9,6 @@
 
 # 22.05.11 반응형
  - media query MainPage
+
+# 22.05.12 반응형
+ - media query aboutUs
