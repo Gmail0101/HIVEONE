@@ -353,8 +353,9 @@ header {
 
 .sec-img {
   position: absolute;
-  left: 25%;
-  bottom: -17%;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -12%;
 }
 
 .sec_box em {
