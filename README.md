@@ -14,3 +14,4 @@
  - media query aboutUs
  - media query tree
  - media query email
+ - media query business
