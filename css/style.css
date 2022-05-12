@@ -439,11 +439,14 @@ header {
   box-shadow: 0 0 10px gray;
   background: #fff;
   border-radius: 15px;
+  position: relative;
 }
 
 .secbox p {
-  position: relative;
-  top: 40%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%);
   font-size: 40px;
   color: #394459;
   font-weight: 800;
@@ -861,7 +864,7 @@ header {
   }
 
   .secbox a {
-    top: 30%;
+    top: 60%;
     left: 0;
     font-size: 14px;
     padding: 7px 10px;
