@@ -733,7 +733,7 @@ header {
   .sec-img {
     left: 50%;
     transform: translateX(-50%);
-    bottom: -12%;
+    bottom: -15%;
   }
 
   .mt-200 {
