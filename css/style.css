@@ -218,6 +218,31 @@ header {
   line-height: 40px;
 }
 
+@media (max-width: 767px) {
+  .logo {
+    margin-left: 16px;
+    line-height: 50px;
+  }
+  .logo img {
+    width: 86px;
+  }
+
+  .gnb .menu {
+    display: none;
+  }
+
+  header {
+    height: 50px;
+  }
+
+  .visual {
+    top: 50px !important;
+  }
+
+  .mt-reset {
+    margin: 0;
+  }
+}
 /**********/
 /* footer */
 /**********/
@@ -641,15 +666,6 @@ header {
 }
 /* 767 이하 디바이스  */
 @media (max-width: 767px) {
-  .logo {
-    margin-left: 16px;
-    line-height: 100px;
-  }
-
-  .gnb .menu {
-    display: none;
-  }
-
   .sidebar {
     display: block;
     width: 40px;

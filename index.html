@@ -154,34 +154,5 @@
   <!-- font-awesome -->
   <script src="https://kit.fontawesome.com/a7bc0d0a74.js" crossorigin="anonymous"></script>
 
-  <script>
-    $(document).ready(function(){
-
-      $(".sidebar").click(function(){
-        $(".sidebar-wrap").css({"right":"0"});
-      });
-
-      $(".sidebar-close").click(function(){
-        $(".sidebar-wrap").css({"right":"-50%"});
-      });
-
-
-
-        $(".sidebar-menu > li.have-children a").on("click", function(i){
-            i.preventDefault();
-          if( ! $(this).parent().hasClass("active") ){
-            $(".sidebar-menu li ul").slideUp();
-            $(this).next().slideToggle();
-            $(".sidebar-menu li").removeClass("active");
-            $(this).parent().addClass("active");
-          }
-          else{
-            $(this).next().slideToggle();
-            $(".sidebar-menu li").removeClass("active");
-              }
-          });
-    });
-
-  </script>
 </body>
 </html>
