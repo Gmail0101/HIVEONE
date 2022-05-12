@@ -75,9 +75,8 @@
 
 .sec-img{
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom:-12%;
+    left: 25%;
+    bottom:-17%;
 }
 
 
@@ -530,8 +529,9 @@
 
 
     .sec-img{
-        left:5%;
-        bottom:-16%;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom:-12%;
     }
 
     .mt-200{
