@@ -24,8 +24,10 @@
         </header>
     </div>
 
-    <div class="visual mt-100">
-        <img class="MaxIMG" src="./images/contactus_visual/email_visual.png" alt="비주얼이미지">
+    <div class="visual">
+        <img class="visible-lg visible-md MaxIMG" src="./images/contactus_visual/email_visual.png" alt="비주얼이미지">
+        <img class="visible-sm MaxIMG" src="./images/contactus_visual/email_visual_768.png" alt="이미지">
+        <img class="visible-xs MaxIMG" src="./images/contactus_visual/email_visual_320.png" alt="이미지">
         <div class="container visual_box">
             <h1>CONTACT US</h1>
             <p>
@@ -121,6 +123,8 @@
   <!-- main JS-->
   <script src="./js/main.js"></script>
   <!-- 유효성 체크 -->
+  <!-- font-awesome -->
+  <script src="https://kit.fontawesome.com/a7bc0d0a74.js" crossorigin="anonymous"></script>
   <script>
     $('input[name=submit]').click(function(){
     	if($("#userid").val() == ""){
